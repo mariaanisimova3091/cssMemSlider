@@ -28,27 +28,28 @@ article img {
 #desktop:checked ~ #slider {
   max-width: 960px;
 }
-/* #switch1:checked ~ #slider input:nth-child(1)
-#switch2:checked ~ #slider input:nth-child(2) */
 
-#switch1:checked
-  ~ #controls
-  label:nth-child(5)
-  #switch2:checked
-  ~ #controls
-  label:nth-child(1),
+#switch2:checked ~ #controls label:nth-child(1),
 #switch3:checked ~ #controls label:nth-child(2),
 #switch4:checked ~ #controls label:nth-child(3),
-#switch5:checked ~ #controls label:nth-child(4) {
-  background: red no-repeat;
-  float: left;
-  margin: 0 0 0 -84 px;
-  display: block;
-  height: 68px;
-  width: 68px;
-}
-
 .all input {
   cursor: pointer;
 }
-
+#switch1:checked ~ #slides .image {
+  margin-left: 0;
+}
+#switch2:checked ~ #slides .image {
+  margin-left: -100%;
+}
+#switch3:checked ~ #slides .image {
+  margin-left: -200%;
+}
+#switch4:checked ~ #slides .image {
+  margin-left: -300%;
+}
+#switch5:checked ~ #slides .image {
+  margin-left: -400%;
+}
+#desktop {
+  display: none;
+}
