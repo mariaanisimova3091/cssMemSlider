@@ -1,1 +1,1 @@
-https://${YOUR_GITHUB_NAME}.github.io/cssMemSlider/cssMemSlider/index.html
+https://mariaanisimova3091.github.io/cssMemSlider/cssMemSlider/index.html
